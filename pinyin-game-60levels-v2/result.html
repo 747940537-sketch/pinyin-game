@@ -1,0 +1,7 @@
+
+<h1>本关完成</h1>
+<p>得分：<span id="finalScore"></span></p>
+<a href="game.html">下一关</a>
+<script>
+document.getElementById("finalScore").innerText = localStorage.getItem("score")||0;
+</script>
