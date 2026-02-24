@@ -1,0 +1,1 @@
+function start(){alert('结构正常，GitHub Pages 可直接打开');}
